@@ -8,7 +8,7 @@
 
 ## About
 
-This simple project was based on lightswitch, a handy js darkmode switch I often enjoying using in various bootstrap projects, but, on this particular time the simple request from the user this project was created for was that they absolutely wanted no physical switch displayed on site, and something that only required including the single js file in the html files they may use without adding any other edits related to this simple project say in thier html files and also they only wanted the dark mode to enable itself at a set time considered "night" (18 & after) and then disable itself at a set time (7 to prior to 18) for example on what they considered "morning" like 7 AM and throughout the daytime. 
+This simple project was based on lightswitch, a handy js darkmode switch I often enjoying using in various bootstrap projects, but, on this particular time the simple request from the user this project was initially created for was that they absolutely wanted no physical switch displayed on site, and something that only required including the single js file in the html files they may use without adding any other edits related to this simple project say in thier html files and also they only wanted the dark mode to enable itself at a set time considered "night" (18 & after) and then disable itself at a set time (7 to prior to 18) for example on what they considered "morning" like 7 AM and throughout the daytime. Anyway, after finishing said simple task for said request, I then opted to create a repo and share such here, for anyone that may need and or desire such.
 
 Note: you can edit the js script if needed if these defined times are not to your needs and edit the area defining 7, 12, 18, etc, etc. 
 
