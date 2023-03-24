@@ -32,7 +32,7 @@ Simply reference the `tod-colourswitch.js` script in your html file:
 ```html
 
 <!-- TOD Colour Switch -->
-<script src="tod-colourswitch.js" />
+<script src="tod-colourswitch.js"></script>
 ```
 
 ### About Usage
