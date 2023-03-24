@@ -4,6 +4,8 @@
 
     // Light Mode Function
     function light_Mode() {
+
+        // Query Element & Replace
         document.querySelectorAll('.bg-dark').forEach((element) => {
          element.className = element.className.replace(/-dark/g, '-light');
         });
@@ -37,6 +39,8 @@
     
     // Dark Mode Function
     function dark_Mode() {
+
+        // Query Element & Replace
         document.querySelectorAll('.bg-light').forEach((element) => {
          element.className = element.className.replace(/-light/g, '-dark');
         });
@@ -53,6 +57,11 @@
         else {
           document.body.classList.add('text-light');
         }
+
+        // Dark Button Add Border
+        document.querySelectorAll('.btn-dark').forEach((element) => {
+         element.className = element.className.replace(/-dark/g, '-dark border');
+        });        
 
         // Tables Colour
         var tables = document.querySelectorAll('table');
@@ -93,7 +102,7 @@
 
         // Switch TOD
         switch (time_of_Day) {
-        	// Morning Case
+            // Morning Case
             case "morning":
             // Day Case
             case "day":
@@ -120,4 +129,3 @@
     }
 
     window[ addEventListener ? 'addEventListener' : 'attachEvent' ]( addEventListener ? 'load' : 'onload', load_It );
-
