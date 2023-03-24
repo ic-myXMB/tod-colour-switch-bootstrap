@@ -23,6 +23,11 @@
           document.body.classList.add('text-dark');
         }
 
+        // Light Button Add Border
+        document.querySelectorAll('.btn-light').forEach((element) => {
+         element.className = element.className.replace(/-light/g, '-light border');
+        });         
+
         // Tables Colour
         var tables = document.querySelectorAll('table');
         // For 
