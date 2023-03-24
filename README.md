@@ -20,6 +20,11 @@ Switching to dark mode is done by the script at a predefined time of day and as 
 
 - Download the "tod-colourswitch.js" file
 
+Note: While the demo file is not needed, there is included in the repo a "demo.html" file to see such with Bootstrap 5.3.0-alpha1 or if you simple need such as a base starting point
+
+- Download the "demo.html" and related "custom.css" files if you desire to view or edit said demo on your local machine
+
+
 ## Usage
 
 Simply reference the `tod-colourswitch.js` script in your html file:
